@@ -30,7 +30,7 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
      }
      
       /*db = $cordovaSQLite.openDB("tarea3_restaurante.db");*/
-        $cordovaSQLite.execute(db, 'CREATE TABLE IF NOT EXISTS agenda (id INTEGER PRIMARY KEY AUTOINCREMENT, nombre varchar(255), descripciono varchar(255), precio varchar(255))');
+        $cordovaSQLite.execute(db, 'CREATE TABLE IF NOT EXISTS restaurante (id INTEGER PRIMARY KEY AUTOINCREMENT, nombre varchar(255), descripcion varchar(255), precio varchar(255))');
 
   });
   
